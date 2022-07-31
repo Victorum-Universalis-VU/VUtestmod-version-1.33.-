@@ -1324,13 +1324,6 @@ vassal = {
 	first = VEN
 	second = CDA
 	start_date = 1444.1.1
-	end_date = 1444.11.13 #BeyondTypus batch edit shortcut the second shattering begins
-}	#Candia
-
-vassal = {
-	first = VEN
-	second = CDA
-	start_date = 1444.11.18 #BeyondTypus batch edit shortcut second performance start ends
 	end_date = 1669.1.1 #Ottoman conquest
 }	#Candia
 
@@ -1338,12 +1331,5 @@ vassal = {
 	first = VEN
 	second = CEN
 	start_date = 1389.12.19
-	end_date = 1444.11.13 #BeyondTypus batch edit shortcut the second shattering begins
-}	#Ceneda
-
-vassal = {
-	first = VEN
-	second = CEN
-	start_date = 1444.11.18 #BeyondTypus batch edit shortcut second performance start ends
 	end_date = 1514.1.1 #annexed
 }	#Ceneda

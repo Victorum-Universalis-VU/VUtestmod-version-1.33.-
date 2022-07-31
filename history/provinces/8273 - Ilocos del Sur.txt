@@ -13,7 +13,7 @@ native_ferocity = 1
 native_hostileness = 3
 
 discovered_by = chinese
-
+1444.1.1 = { discovered_by = RYU }
 1521.1.1 = { discovered_by = SPA } # Ferdinand Magellan
 
 1572.6.13 = { #Conquistadore Juan de Salcedo leads an expedition to the river Bigan and founds the settlement "Villa Fernandina de Vigan" or the "Town of Ferdinand".

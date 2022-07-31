@@ -17,6 +17,10 @@ base_tax = 2
 base_production = 3
 base_manpower = 3
 
+discovered_by = japanese
+
+1444.1.1 = { discovered_by = ANU }
+
 1640.1.1 = { discovered_by = RUS } # Ivan Moskvitin
 
 1679.1.1 = {	

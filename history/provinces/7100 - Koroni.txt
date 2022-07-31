@@ -27,51 +27,41 @@ discovered_by = eastern
 discovered_by = western
 
 
-#Province history completed by - Draiocht
-#1291.5.21 = { #BeyondTypus batch edit shortcut the first shattering begins
-#	owner = XXX
-#	controller = XXX
-#	add_core = XXX
-#	remove_core = XXX
-#} #Fantasy/alt-history tags for gameplay & multiplayer balance in SE. Please also remember to cut any cores from original larger tags then readd below.
-#1291.5.23 = { #BeyondTypus batch edit shortcut the first shattering ends
-#	owner = XXX
-#	controller = XXX
-#	add_core = XXX
-#	remove_core = XXX
-#} #End of shattered history. Please revert owner to historical and cut any fantasy cores. Also don't forget to readd any cut historical cores
-#1291.5.24 = { #BeyondTypus batch edit shortcut first performance start begins
-#	owner = XXX
-#	controller = XXX
-#	add_core = XXX
-#} #Cut all mod added tags, reverting to nearest or most logical vanilla tag owner. I think it is safe to leave cores, though.
-#1291.5.26 = { #BeyondTypus batch edit shortcut first performance start ends
-#	owner = XXX
-#	controller = XXX
-#	remove_core = XXX
-#} #Return to proper mod added owners and cuts vanilla core, typically.
-
-#1291 - 1444
-
-#1444.11.13 = { #BeyondTypus batch edit shortcut the second shattering begins
-#	owner = XXX
-#	controller = XXX
-#	add_core = XXX
-#} #Fantasy/alt-history tags for gameplay & multiplayer balance in SE. Please also remember to cut any cores from original larger tags then readd below.
-#1444.11.15 = { #BeyondTypus batch edit shortcut the second shattering ends
-#	owner = XXX
-#	controller = XXX
-#	remove_core = XXX
-#} #End of shattered history. Please revert owner to historical and cut any fantasy cores. Also don't forget to readd any cut historical cores
-#1444.11.16 = { #BeyondTypus batch edit shortcut second performance start begins
-#	owner = XXX
-#	controller = XXX
-#	add_core = XXX
-#} #Cut all mod added tags, reverting to nearest or most logical vanilla tag owner. I think it is safe to leave cores, though.
-#1444.11.18 = { #BeyondTypus batch edit shortcut second performance start ends
-#	owner = XXX
-#	controller = XXX
-#	remove_core = XXX
-#} #Return to proper mod added owners and cuts vanilla core, typically.
-
-#1444 on
+#Province history completed by docRobert
+1500.8.17 = {
+	controller = TUR
+} #Sieged by Ottomans
+1503.1.1 = {
+	owner = TUR
+	add_core = TUR
+} #End of 2nd Ottoman-Venetian war
+1532.6.1 = {
+	owner = VEN
+	controller = VEN
+} #Retaken by Andrea Doria
+1534.1.1 = {
+	owner = TUR
+	controller = TUR
+	remove_core = VEN
+} #Spanish garrison surrenders
+1685.8.7 = {
+	controller = VEN
+} #Captured by Venice after siege
+1699.1.26 = {
+	owner = VEN
+	add_core = VEN
+} #End of 6th Ottoman-Venetian war
+1715.9.7 = { controller = TUR } #7th Ottoman-Venetian war
+1718.7.21 = {
+	owner = TUR
+	controller = TUR
+	remove_core = VEN
+} #Peloponnese recovered by the Ottomans
+1750.1.1 = { add_core = GRE }
+1821.2.21 = { unrest = 10 } #Greek uprising
+1828.6.1 = {
+	unrest = 0
+	owner = GRE
+	controller = GRE
+} #Liberated by French general
+1829.9.12 = { remove_core = TUR } #Greece idependent

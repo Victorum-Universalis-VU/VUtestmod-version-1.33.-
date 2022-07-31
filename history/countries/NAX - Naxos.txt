@@ -284,3 +284,15 @@ fixed_capital = 164 # Cannot move capital away from this province & no power cos
 }
 
 # Annexed by the Ottomans in 1579.8.2
+
+1579.1.1 = {		#Independent Thermia state on Kithnos Island: 1579 - 1617
+	monarch = {
+		name = "Angelo III"
+		dynasty = "Gozzadini"
+		birth_date = 1555.1.1
+		death_date = 1617.6.1
+		adm = 2
+		dip = 3
+		mil = 4
+	}
+}

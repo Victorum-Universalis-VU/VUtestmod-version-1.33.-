@@ -41,18 +41,33 @@ discovered_by = western
 	owner = ACH
 	controller = ACH
 } # The fall of the Byzantine Empire
-1455.1.1 = { owner = MOE controller = MOE remove_core = ACH }
-1460.1.1 = { owner = TUR controller = TUR add_core = TUR capital = "Baliabadra" }
+1455.1.1 = { owner = MOE controller = MOE }
+1461.3.1 = { owner = TUR controller = TUR add_core = TUR capital = "Baliabadra" } #Last Morean stronghold falls
 1464.1.1 = { controller = VEN }
 1470.1.1 = { controller = TUR }
-1502.1.1 = { remove_core = BYZ }
+1525.1.1 = { remove_core = BYZ }
 1532.1.1 = { revolt = { type = nationalist_rebels size = 1 } controller = REB } # Rebellion against the Ottoman rule
 1533.1.1 = { revolt = {} controller = TUR }
 1555.1.1 = { unrest = 5 } # General discontent with the Janissaries' dominance
 1556.1.1 = { unrest = 0 }
 1571.1.1 = { revolt = { type = nationalist_rebels size = 1 } controller = REB } # Rebellion against Ottoman rule
 1572.1.1 = { revolt = {} controller = TUR } # Estimated
-1688.1.1 = { controller = VEN } # Occupied by Venice
+1687.1.1 = { controller = VEN } # Occupied by Venice
 1699.1.26 = { owner = VEN add_core = VEN } # Annexed by the Venetian republic
-1718.1.1 = { owner = TUR controller = TUR remove_core = VEN }
+1715.9.7 = { controller = TUR } #7th Ottoman-Venetian war
+1718.7.21 = {
+	owner = TUR
+	controller = TUR
+	remove_core = VEN
+} #Peloponnese recovered by the Ottomans
 1750.1.1 = { add_core = GRE }
+1821.2.21 = { 
+	owner = GRE
+	controller = GRE
+} #Greek uprising
+1829.9.12 = { remove_core = TUR } #Greece idependent
+1850.1.1 = {
+	base_tax = 6
+	base_production = 5
+	base_manpower = 6
+} #Urban development

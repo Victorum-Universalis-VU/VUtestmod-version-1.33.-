@@ -41,3 +41,10 @@ discovered_by = western
 	add_core = TUR
 	remove_core = KNI
 } # Part of the Ottoman Empire
+1821.2.21 = { add_core = GRE }
+1912.1.1 = { controller = ITA } #Ottoman war with Italy
+1912.10.18 = {
+	owner = ITA
+	add_core = ITA
+	remove_core = TUR
+}

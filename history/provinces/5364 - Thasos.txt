@@ -21,12 +21,27 @@ discovered_by = ottoman
 discovered_by = eastern
 discovered_by = western
 
-1462.1.1 = {
+1453.5.29 = {
+	owner = LES
+	controller = LES
+	add_core = LES
+} #Island given to Dorino I Gattilusio
+1455.6.30 = {
 	owner = TUR
 	controller = TUR
+} #Taken by Ottomans after Dorino I died
+1456.6.1 = {
 	add_core = TUR
-}
+	remove_core = LES
+} #Island incorporated properly
 1555.1.1 = { unrest = 5 } # General discontent with the Janissaries' dominance
 1556.1.1 = { unrest = 0 }
-
-1740.1.1 = { base_tax = 1 base_production = 1 } # The decentralizing effect of the provincial system
+1770.6.1 = { controller = RUS } #War with Russia
+1774.7.21 = { controller = TUR }
+1912.10.20 = { controller = GRE }
+1913.5.30 = {
+	owner = GRE
+	controller = GRE
+	add_core = GRE
+	remove_core = TUR
+}

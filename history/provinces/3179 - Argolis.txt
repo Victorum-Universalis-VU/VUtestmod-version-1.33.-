@@ -37,7 +37,30 @@ discovered_by = western
 1556.1.1 = { unrest = 0 }
 1571.1.1 = { revolt = { type = nationalist_rebels size = 1 } controller = REB } # Rebellion against Ottoman rule
 1572.1.1 = { revolt = {} controller = TUR } # Estimated
-1688.1.1 = { controller = VEN } # Occupied by Venice
+1685.9.1 = { controller = VEN } # Occupied by Venice
 1699.1.26 = { owner = VEN add_core = VEN } # Annexed by the Venetian republic
 1718.1.1 = { owner = TUR controller = TUR remove_core = VEN }
+1715.9.7 = { controller = TUR } #7th Ottoman-Venetian war
+1718.7.21 = {
+	owner = TUR
+	controller = TUR
+	remove_core = VEN
+} #Peloponnese recovered by the Ottomans
 1750.1.1 = { add_core = GRE }
+1821.2.21 = { unrest = 10 } #Greek uprising
+1822.11.1 = {
+	unrest = 0
+	owner = GRE
+	controller = GRE
+} #Liberated
+1828.1.7 = {
+	base_tax = 7
+	base_production = 5
+	base_manpower = 6
+} #Capital of Greece
+1829.9.12 = { remove_core = TUR } #Greece idependent
+1834.6.1 = {
+	base_tax = 5
+	base_production = 4
+	base_manpower = 5
+} #Capital moved to Athens
